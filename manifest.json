@@ -2,7 +2,7 @@
     "applications": {
         "gecko": {
             "id": "hotfix-avg-logins-bug-1559458@mozilla.com",
-            "strict_min_version": "67.0.2",
+            "strict_min_version": "67.0",
             "strict_max_version": "68.*"
         }
     },
