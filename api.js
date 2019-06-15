@@ -53,7 +53,7 @@ async function getCorruptFiles() {
   }
 
   return files.sort(function compare(a, b) {
-    return a.modificationDate - b.modificationDate;
+    return b.modificationDate - a.modificationDate;
   });
 }
 
