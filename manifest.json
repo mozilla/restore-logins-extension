@@ -5,7 +5,7 @@
             "strict_min_version": "67.0.2"
         }
     },
-    "description": "Allow recovering from logins.json*corrupt files",
+    "description": "Immediately restores saved passwords and logins to Firefox which have disappeared due to the “Password Protection” feature of AVG Internet Security software. It also resolves issues related to staying logged into Firefox accounts and device syncing, to work with AVG’s security software.",
     "experiment_apis": {
         "skeleton": {
             "parent": {
@@ -17,9 +17,9 @@
         }
     },
     "hidden": true,
-    "homepage_url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1559458",
+    "homepage_url": "https://support.mozilla.org/kb/passwords-disappearing-avg-security",
     "manifest_version": 2,
-    "name": "Hotfix for AVG losing saved logins (bug 1559458)",
+    "name": "Password Restore for AVG Internet Security",
     "permissions": [],
     "version": "1.0.0"
 }

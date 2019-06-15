@@ -71,13 +71,13 @@ this.skeleton = class extends ExtensionAPI {
     let dialogTitle = "Restore a backup of Firefox logins";
 
     if (!corrupt.length) {
-      Services.prompt.alert(null, dialogTitle, "You have no logins.json*.corrupt files to restore");
+      Services.prompt.alert(null, dialogTitle, "Firefox could not find any backup login files.");
       await uninstall(this.extension.id);
       return;
     }
 
     if (corrupt.length == 1) {
-      let message = "Would you like to try restore Logins and Passwords from a backup? Firefox will restart.";
+      let message = `Click “OK” to restart Firefox and restore your logins from backup.`;
       let ok = Services.prompt.confirm(null, dialogTitle, message);
       if (!ok) {
         await uninstall(this.extension.id);
@@ -98,7 +98,7 @@ this.skeleton = class extends ExtensionAPI {
       return `${file.entry.name} / ${file.stats.size}B / ${rtf1.format(days, "day")}`;
     });
 
-    let dialogText  = "Choose the backup logins file to restore. Firefox will restart to restore the backup.";
+    let dialogText  = `Choose the backup logins file to restore. Clicking “OK” will restart Firefox.`;
 
     let selectedIndex = { value: null };
 
