@@ -1,0 +1,20 @@
+{
+  "addonName": {
+    "message": "Obnova hesel pro AVG Internet Security"
+  }, 
+  "addonDescription": {
+    "message": "Tento doplněk okamžitě obnoví hesla a přihlašovací údaje, které z Firefoxu zmizely díky funkci pro ochranu hesel „Password Protection“, která je součástí AVG Internet Security. Řeší také problémy se samovolným odhlašováním od účtu Firefox a synchronizaci zařízení při použití s bezpečnostním softwarem AVG."
+  }, 
+  "dialogTitle": {
+    "message": "Obnovení zálohy hesel a přihlašovacích údajů ve Firefoxu"
+  }, 
+  "dialogNoBackupsBody": {
+    "message": "Firefox nenašel žádnou zálohu přihlašovacích údajů. Toto rozšíření bude odinstalováno."
+  }, 
+  "dialogOneBackupBody": {
+    "message": "Pro restart Firefoxu a obnovení vašich hesel a přihlašovacích údajů ze zálohy klepněte na „OK“."
+  }, 
+  "dialogMultipleBackupsBody": {
+    "message": "Vyberte soubor se zálohou k obnově a klepněte na tlačítko „OK“ pro restart Firefoxu."
+  }
+}
