@@ -1,5 +1,7 @@
 # Password Restore for AVG Internet Security by Firefox
 
+[Install the extension from addons.mozilla.org](https://addons.mozilla.org/firefox/addon/restore-logins/)
+
 Issue bug: https://bugzilla.mozilla.org/show_bug.cgi?id=1558765
 
 Extension bug: https://bugzilla.mozilla.org/show_bug.cgi?id=1559458
