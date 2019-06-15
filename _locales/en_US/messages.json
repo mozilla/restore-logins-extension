@@ -1,0 +1,14 @@
+{
+  "dialogTitle": {
+    "message": "Restore a backup of Firefox logins"
+  },
+  "dialogNoBackupsBody": {
+    "message": "Firefox could not find any backup login files."
+  },
+  "dialogOneBackupBody": {
+    "message": "Click “OK” to restart Firefox and restore your logins from backup."
+  },
+  "dialogMultipleBackupsBody": {
+    "message": "Choose the backup logins file to restore. Clicking “OK” will restart Firefox."
+  }
+}

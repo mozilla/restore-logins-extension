@@ -68,16 +68,16 @@ this.skeleton = class extends ExtensionAPI {
     let corrupt = await getCorruptFiles();
     console.log("onStartup", corrupt);
 
-    let dialogTitle = "Restore a backup of Firefox logins";
+    let dialogTitle = this.extension.localizeMessage("dialogTitle");
 
     if (!corrupt.length) {
-      Services.prompt.alert(null, dialogTitle, "Firefox could not find any backup login files.");
+      Services.prompt.alert(null, dialogTitle, this.extension.localizeMessage("dialogNoBackupsBody"));
       await uninstall(this.extension.id);
       return;
     }
 
     if (corrupt.length == 1) {
-      let message = `Click “OK” to restart Firefox and restore your logins from backup.`;
+      let message = this.extension.localizeMessage("dialogOneBackupBody");
       let ok = Services.prompt.confirm(null, dialogTitle, message);
       if (!ok) {
         await uninstall(this.extension.id);
@@ -98,7 +98,7 @@ this.skeleton = class extends ExtensionAPI {
       return `${file.entry.name} / ${file.stats.size}B / ${rtf1.format(days, "day")}`;
     });
 
-    let dialogText  = `Choose the backup logins file to restore. Clicking “OK” will restart Firefox.`;
+    let dialogText = this.extension.localizeMessage("dialogMultipleBackupsBody");
 
     let selectedIndex = { value: null };
 
