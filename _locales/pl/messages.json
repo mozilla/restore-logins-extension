@@ -1,0 +1,20 @@
+{
+  "addonName": {
+    "message": "Przywracanie haseł — AVG Internet Security"
+  }, 
+  "addonDescription": {
+    "message": "Natychmiast przywraca hasła i dane logowania zachowane w Firefoksie, które zniknęły z powodu funkcji „Ochrona haseł” programu AVG Internet Security. Rozwiązuje także problemy związane z logowaniem do kont Firefoksa i synchronizacją urządzeń, aby poprawnie działać z programami firmy AVG."
+  }, 
+  "dialogTitle": {
+    "message": "Przywracanie kopii zapasowej danych logowania i haseł w Firefoksie"
+  }, 
+  "dialogNoBackupsBody": {
+    "message": "Firefox nie może odnaleźć żadnych plików z kopiami zapasowymi danych logowania. Rozszerzenie zostanie odinstalowane."
+  }, 
+  "dialogOneBackupBody": {
+    "message": "Kliknij „OK”, aby ponownie uruchomić Firefoksa i przywrócić dane logowania i hasła z kopii zapasowej."
+  }, 
+  "dialogMultipleBackupsBody": {
+    "message": "Wybierz plik z kopią zapasową do przywrócenia. Kliknięcie „OK” spowoduje ponowne uruchomienie Firefoksa."
+  }
+}
