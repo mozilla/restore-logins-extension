@@ -1,0 +1,20 @@
+{
+  "addonName": {
+    "message": "Restaurador de senhas para AVG Internet Security"
+  }, 
+  "addonDescription": {
+    "message": "Restaura imediatamente contas e senhas salvas no Firefox que desapareceram devido ao recurso “Proteção de senhas” do AVG Internet Security. Também resolve problemas relacionados a permanecer na Conta Firefox e sincronizar dispositivos, para que funcionem com produtos de  segurança da AVG."
+  }, 
+  "dialogTitle": {
+    "message": "Restaurar um backup de contas e senhas do Firefox"
+  }, 
+  "dialogNoBackupsBody": {
+    "message": "O Firefox não encontrou nenhum arquivo de backup de contas de acesso. A extensão será desinstalada."
+  }, 
+  "dialogOneBackupBody": {
+    "message": "Clique em “OK” para reiniciar o Firefox e restaurar suas contas e senhas do backup."
+  }, 
+  "dialogMultipleBackupsBody": {
+    "message": "Escolha o arquivo de backup a restaurar. Ao clicar em “OK” o Firefox será reiniciado."
+  }
+}
