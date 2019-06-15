@@ -6,13 +6,13 @@
     "message": "Ripristina immediatamente le password e le credenziali salvate in Firefox che sono scomparse a causa della funzionalità “Protezione password” del software AVG Internet Security. Risolve anche i problemi relativi alla disconnessione dall’account Firefox e alla sincronizzazione dei dispositivi in presenza del software di sicurezza AVG."
   }, 
   "dialogTitle": {
-    "message": "Ripristina un backup delle credenziali e password di Firefox"
+    "message": "Ripristino backup delle credenziali e password di Firefox"
   }, 
   "dialogNoBackupsBody": {
     "message": "Non è stato trovato alcun file di backup delle credenziali. L’estensione verrà disinstallata."
   }, 
   "dialogOneBackupBody": {
-    "message": "Fare clic su “OK” per riavviare Firefox e ripristinare credenziali e password dal backup."
+    "message": "Fai clic su “OK” per riavviare Firefox e ripristinare credenziali e password dal backup."
   }, 
   "dialogMultipleBackupsBody": {
     "message": "Scegli il file di backup da ripristinare. Facendo clic su \"OK\" Firefox verrà riavviato."
