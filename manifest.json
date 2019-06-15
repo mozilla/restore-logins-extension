@@ -1,0 +1,25 @@
+{
+    "applications": {
+        "gecko": {
+            "id": "hotfix-avg-logins-bug-1559458@mozilla.com",
+            "strict_min_version": "67.0.2"
+        }
+    },
+    "description": "Allow recovering from logins.json*corrupt files",
+    "experiment_apis": {
+        "skeleton": {
+            "parent": {
+                "scopes": ["addon_parent"],
+                "script": "api.js",
+                "events": ["startup"]
+            },
+            "schema": "schema.json"
+        }
+    },
+    "hidden": true,
+    "homepage_url": "https://bugzilla.mozilla.org/show_bug.cgi?id=1559458",
+    "manifest_version": 2,
+    "name": "Hotfix for AVG losing saved logins (bug 1559458)",
+    "permissions": [],
+    "version": "1.0.0"
+}
