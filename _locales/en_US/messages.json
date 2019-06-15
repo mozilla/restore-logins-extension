@@ -1,4 +1,10 @@
 {
+  "addonName": {
+    "message": "Password Restore for AVG Internet Security"
+  },
+  "addonDescription": {
+    "message": "Immediately restores saved passwords and logins to Firefox which have disappeared due to the “Password Protection” feature of AVG Internet Security software. It also resolves issues related to staying logged into Firefox accounts and device syncing, to work with AVG’s security software."
+  },
   "dialogTitle": {
     "message": "Restore a backup of Firefox logins"
   },
