@@ -1,0 +1,20 @@
+{
+  "addonName": {
+    "message": "Restauration des mots de passe pour AVG Internet Security"
+  }, 
+  "addonDescription": {
+    "message": "Restaure immédiatement les mots de passe et les identifiants enregistrés dans Firefox qui ont disparu en raison de la fonctionnalité « Protection des mots de passe » du logiciel AVG Internet Security. Il résout également les problèmes liés à la connexion aux comptes Firefox et à la synchronisation des appareils, afin de fonctionner avec le logiciel de sécurité AVG."
+  }, 
+  "dialogTitle": {
+    "message": "Restaurer une sauvegarde des noms d’utilisateur et des mots de passe Firefox"
+  }, 
+  "dialogNoBackupsBody": {
+    "message": "Firefox n’a trouvé aucun fichier de sauvegarde des identifiants. L’extension sera désinstallée."
+  }, 
+  "dialogOneBackupBody": {
+    "message": "Cliquez sur « OK » pour redémarrer Firefox et restaurer vos identifiants et mots de passe à partir de la sauvegarde."
+  }, 
+  "dialogMultipleBackupsBody": {
+    "message": "Sélectionnez le fichier de sauvegarde à restaurer. Cliquer sur « OK » va redémarrer Firefox."
+  }
+}
