@@ -1,0 +1,20 @@
+{
+  "addonName": {
+    "message": "Restaurador de contraseñas para AVG Internet Security"
+  }, 
+  "addonDescription": {
+    "message": "Restaura inmediatamente cuentas y contraseñas guardadas en Firefox que han desaparecido debido a la característica “Protección de contraseñas” de AVG Internet Security. También resuelve problemas relacionados con la desconexión de cuentas de Firefox y sincronización de dispositivos, para que funcionen con el software de seguridad de AVG."
+  }, 
+  "dialogTitle": {
+    "message": "Restaurar una copia de seguridad de cuentas y contraseñas de Firefox"
+  }, 
+  "dialogNoBackupsBody": {
+    "message": "Firefox no ha podido encontrar ninguna copia de seguridad de archivos de credenciales. Se desinstalará la extensión."
+  }, 
+  "dialogOneBackupBody": {
+    "message": "Haz clic en “OK” para reiniciar Firefox y restaurar tus cuentas y contraseñas desde la copia de seguridad."
+  }, 
+  "dialogMultipleBackupsBody": {
+    "message": "Selecciona el archivo de copia de seguridad a restaurar. Al hacer clic en “OK” se reiniciará Firefox."
+  }
+}
