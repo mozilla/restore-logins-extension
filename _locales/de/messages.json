@@ -6,13 +6,13 @@
     "message": "Stellt gespeicherte Kennwörter und Anmeldungen in Firefox sofort wieder her, die aufgrund der Funktion „Password Protection“ der AVG Internet Security-Software verschwunden sind. Es behebt auch Probleme, die mit der Anmeldung bei Firefox Accounts und der Gerätesynchronisierung zusammenhängen, um mit der Sicherheitssoftware von AVG zusammenzuarbeiten."
   }, 
   "dialogTitle": {
-    "message": "Eine Sicherungskopie von in Firefox gespeicherten Anmeldedaten wiederherstellen"
+    "message": "Eine Sicherungskopie von in Firefox gespeicherten Zugangsdaten wiederherstellen"
   }, 
   "dialogNoBackupsBody": {
     "message": "Firefox konnte keine Sicherungskopien finden. Die Erweiterung wird nun deinstalliert."
   }, 
   "dialogOneBackupBody": {
-    "message": "Drücken Sie auf „OK“ um Firefox neu zu starten und Ihre Anmeldedaten von einer Sicherheitskopie wiederherzustellen."
+    "message": "Drücken Sie auf „OK“, um Firefox neu zu starten und Ihre Zugangsdaten von einer Sicherheitskopie wiederherzustellen."
   }, 
   "dialogMultipleBackupsBody": {
     "message": "Wählen Sie die Datei der Sicherungskopie aus. Klicken Sie auf „OK“, um Firefox neu zu starten."
